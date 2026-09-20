@@ -21,6 +21,14 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
+      - name: Restore Gradle wrapper JAR
+        run: |
+          mkdir -p gradle/wrapper
+          curl --fail --location --retry 3 \
+            https://raw.githubusercontent.com/gradle/gradle/v8.10.2/gradle/wrapper/gradle-wrapper.jar \
+            --output gradle/wrapper/gradle-wrapper.jar
+          test -s gradle/wrapper/gradle-wrapper.jar
+      
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
