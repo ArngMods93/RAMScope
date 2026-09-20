@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">RAMScope</string>
+    <string name="tagline">A lightweight Android RAM and memory monitoring tool</string>
+
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_details">Details</string>
+    <string name="nav_processes">Processes</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="unavailable">Unavailable</string>
+
+    <string name="ram_title">RAM</string>
+    <string name="total">Total</string>
+    <string name="used">Used</string>
+    <string name="available">Available</string>
+    <string name="cached">Cached</string>
+
+    <string name="zram_swap_title">ZRAM / Swap</string>
+    <string name="zram_size">ZRAM size</string>
+    <string name="zram_used">ZRAM used</string>
+    <string name="swap_total">Swap total</string>
+    <string name="swap_used">Swap used</string>
+    <string name="swap_available">Swap available</string>
+
+    <string name="memory_details_title">Memory details</string>
+    <string name="threshold">Low-memory threshold</string>
+    <string name="low_memory_state">Low-memory state</string>
+    <string name="low_memory_yes">Low</string>
+    <string name="low_memory_no">Normal</string>
+
+    <string name="processes_title">Process information</string>
+    <string name="processes_disclaimer">Android restricts access to other apps\' memory usage for privacy reasons since Android 8 (API 26). RAMScope only shows what the platform legally exposes: its own process and system-wide memory\'s state, never data from other apps obtained through unsafe means.</string>
+    <string name="auto_refresh">Auto refresh</string>
+    <string name="auto_refresh_interval">Interval</string>
+    <string name="last_updated">Last updated %1$s</string>
+</resources>

@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple chip / memory glyph -->
+    <path
+        android:fillColor="#7FE3B4"
+        android:pathData="M38,38 h32 v32 h-32 z" />
+    <path
+        android:fillColor="#7FE3B4"
+        android:pathData="M46,24 v10 h4 v-10 z M58,24 v10 h4 v-10 z M46,74 v10 h4 v-10 z M58,74 v10 h4 v-10 z" />
+    <path
+        android:fillColor="#7FE3B4"
+        android:pathData="M24,46 h10 v4 h-10 z M24,58 h10 v4 h-10 z M74,46 h10 v4 h-10 z M74,58 h10 v4 h-10 z" />
+</vector>
